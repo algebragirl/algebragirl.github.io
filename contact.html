@@ -65,12 +65,51 @@
 		Specialties: data analysis, Microsoft Excel, data cleaning, statistics, data visualization, requirements gathering, project management, SQL, 
 		relational databases.<br><br></p>
 		
-	    <div class="container one-thousand-centered-cont">
+<section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title"><font color="red">Contact Me</font></h2>
+    <p class="contact-description">
+      Fill out the form below and I'll get back to you as soon as possible.
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="da75e58f-611b-45f5-9c0f-efceb9d540ea" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Your Website" />
+    <input type="hidden" name="from_name" value="My Website" />
+    <!-- More customization options available in the docs: https://docs.web3forms.com -->
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
+</section>
+		<br><br>
+	    <!-- <div class="container one-thousand-centered-cont">
       <h2><font color="red">Contact Me</font></h2>
       <div class="container team-social-content-cont">
 	  
-		  <label class="label">What do you need?</label><textarea name="textarea-name">Tell me more about your project</textarea><button type="button" class="button">Send</button>
-        </div>
+		  <label class="label">Your Name</label><textarea name="textarea-name">Tell me more about your project</textarea>
+		  <button type="button" class="button">Send</button>
+        </div> -->
+		
         <div class="container lets-talk-social-cont">
 			 <a href="https://github.com/algebragirl" target="_blank" class="social-image lets-talk-social-icon">
             <img class="github_icon" src="./socialicons/GitHub.png" alt="GitHub" width="100" height="100"></a>
@@ -92,14 +131,12 @@
   <div class="surrounding-padding-col footer-contact-info container">
     <div class="container one-thousand-centered-cont sample-47-content-cont">
       <div class="container footer-contact-info-cont">
-        <a class="link-text footer-contact-info" href="#">Barbara Morrison<br></a>
-        <a class="link-text footer-contact-info" href="#">email address goes here<br></a>
-        <a class="link-text footer-contact-info" href="#">phone number ? goes here</a>
+        <a class="link-text footer-contact-info" href="contact.html">Barbara Morrison<br></a>
       </div>
       <div class="container footer-contact-info-cont">
-        <a class="link-text footer-contact-info" href="#">Instagram<br></a>
-        <a class="link-text footer-contact-info" href="#">Youtube</a>
-        <a class="link-text footer-contact-info" href="#">Twitter</a>
+        <a class="link-text footer-contact-info" href="https://github.com/algebragirl" target="_blank">Github<br></a>
+        <a class="link-text footer-contact-info" href="https://www.linkedin.com/in/algebragirl" target="_blank">Linked In</a>
+        <a class="link-text footer-contact-info" href="https://public.tableau.com/app/profile/barbara.morrison/vizzes" target="_blank">Tableau</a>
       </div>
     </div>
   </div>
@@ -107,6 +144,7 @@
     <div class="container one-thousand-centered-cont">
       <p class="paragraph footer-copyright-text">Copyright © 2025 Barbara Morrison</p>
     </div>
+
   </div>
   <script src="js/jquery.min.js"></script>
   <script src="js/outofview.js"></script>
